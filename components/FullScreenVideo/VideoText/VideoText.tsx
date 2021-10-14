@@ -1,4 +1,5 @@
 import { StyledVideoText } from './VideoText.style';
+import { StyledButton } from '../../Button/Button.style';
 
 export const VideoText = () => (
   <StyledVideoText>
@@ -7,8 +8,6 @@ export const VideoText = () => (
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus tenetur
       totam suscipit labore nam quibusdam repellendus ipsam error iusto est?
     </p>
-    <a href='#' className='btn'>
-      Explore More
-    </a>
+    <StyledButton href='#'>Explore More</StyledButton>
   </StyledVideoText>
 );

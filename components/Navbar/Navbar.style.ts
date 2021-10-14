@@ -12,6 +12,7 @@ export const StyledNavbar = styled.nav`
   height: 95px;
   color: #fff;
   background-color: ${({ theme }: Props) => theme.color.primary};
+  opacity: 0.8;
   z-index: 3;
   display: flex;
   justify-content: space-around;

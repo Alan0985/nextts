@@ -16,10 +16,10 @@ export const StyledVideoText = styled.div`
     padding-bottom: 2rem;
   }
 
-  a {
+  /* a {
     background: ${({ theme }: Props) => theme.color.primary};
     color: #fff;
     font-size: 1.2rem;
     padding: 1rem 2rem;
-  }
+  } */
 `;
