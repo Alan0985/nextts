@@ -1,7 +1,7 @@
 import { StyledContainer } from '../Utils/Container.style';
 import { StyledFlex } from '../Utils/Flex.style';
 import { StyledFooter } from './Footer.style';
-// import { SocialIcons } from '../SocialIcons/SocialIcons';
+import { SocialIcons } from '../SocialIcons/SocialIcons';
 
 export const Footer: React.FC = () => (
   <StyledFooter>
@@ -25,7 +25,7 @@ export const Footer: React.FC = () => (
           <li>Contact Us</li>
         </ul>
 
-        {/* <SocialIcons /> */}
+        <SocialIcons />
       </StyledFlex>
       <p>&copy;2021 HelloHoliday. All Rights Reserved.</p>
     </StyledContainer>
