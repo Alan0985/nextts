@@ -8,6 +8,6 @@ export const VideoText = () => (
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus tenetur
       totam suscipit labore nam quibusdam repellendus ipsam error iusto est?
     </p>
-    <StyledButton href='#'>Explore</StyledButton>
+    <StyledButton href='/guides'>Explore</StyledButton>
   </StyledVideoText>
 );

@@ -58,4 +58,12 @@ export const StyledNavbar = styled.nav`
     height: 100%;
     color: #fff;
   }
+
+  @media (max-width: ${({ theme }: Props) => theme.vp.sm}) {
+    flex-direction: column;
+
+    div {
+      display: none;
+    }
+  }
 `;
