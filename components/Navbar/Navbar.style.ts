@@ -9,7 +9,7 @@ export const StyledNavbar = styled.nav`
   top: 0;
   left: 0;
   width: 100vw;
-  height: 95px;
+  height: 80px;
   color: #fff;
   background-color: ${({ theme }: Props) => theme.color.primary};
   opacity: 0.8;

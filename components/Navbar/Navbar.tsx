@@ -22,11 +22,11 @@ export const Navbar: React.FC = () => {
         <li className={pathname == '/about' ? 'active' : ''}>
           <Link href='/about'>About</Link>
         </li>
-        <li className={pathname == '/projects' ? 'active' : ''}>
-          <Link href='/projects'>Projects</Link>
+        <li className={pathname == '/guides' ? 'active' : ''}>
+          <Link href='/guides'>Travel Guides</Link>
         </li>
-        <li className={pathname == '/team' ? 'active' : ''}>
-          <Link href='/team'>Team</Link>
+        <li className={pathname == '/touring' ? 'active' : ''}>
+          <Link href='/touring'>Touring</Link>
         </li>
         <li className={pathname == '/contact' ? 'active' : ''}>
           <Link href='/contact'>Contact</Link>
