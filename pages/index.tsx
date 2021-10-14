@@ -1,9 +1,10 @@
 import type { NextPage } from 'next';
+import { FullScreenVideo } from '../components/FullScreenVideo/FullScreenVideo';
 
 const Home: NextPage = () => (
-  <div>
-    <h1>Home</h1>
-  </div>
+  <>
+    <FullScreenVideo />
+  </>
 );
 
 export default Home;
