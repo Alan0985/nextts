@@ -1,14 +1,14 @@
-import { StyledFlex } from '../Utils/Flex.style';
 import { CityCard } from './CityCard/CityCard';
 import { cities } from '../../data';
+import { StyledNearby } from './Nearby.style';
 
 export const Nearby = () => (
-  <>
+  <StyledNearby>
     <div>
       <h1>Explore Nearby</h1>
     </div>
 
-    <StyledFlex>
+    <section>
       {cities.map((city) => (
         <CityCard
           key={city.id}
@@ -17,6 +17,6 @@ export const Nearby = () => (
           distance={city.distance}
         />
       ))}
-    </StyledFlex>
-  </>
+    </section>
+  </StyledNearby>
 );
