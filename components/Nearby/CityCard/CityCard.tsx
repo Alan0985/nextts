@@ -10,7 +10,7 @@ type Props = {
 
 export const CityCard = ({ src, name, distance }: Props) => (
   <StyledCityCard>
-    <Image src={src} alt={name} />
+    <img src={src} alt={name} />
     <div>
       <h3>{name}</h3>
       <p>{distance}</p>

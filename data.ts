@@ -1,11 +1,11 @@
-import c01 from './public/assets/images/cities/c01.jpg';
-import c02 from './public/assets/images/cities/c02.jpg';
-import c03 from './public/assets/images/cities/c03.jpg';
-import c04 from './public/assets/images/cities/c04.jpg';
-import c05 from './public/assets/images/cities/c05.jpg';
-import c06 from './public/assets/images/cities/c06.jpg';
-import c07 from './public/assets/images/cities/c07.jpg';
-import c08 from './public/assets/images/cities/c08.jpg';
+const c01 = './assets/images/cities/c01.jpg';
+const c02 = './assets/images/cities/c02.jpg';
+const c03 = './assets/images/cities/c03.jpg';
+const c04 = './assets/images/cities/c04.jpg';
+const c05 = './assets/images/cities/c05.jpg';
+const c06 = './assets/images/cities/c06.jpg';
+const c07 = './assets/images/cities/c07.jpg';
+const c08 = './assets/images/cities/c08.jpg';
 
 export const cities = [
   {

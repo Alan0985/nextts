@@ -62,6 +62,10 @@ export const StyledNavbar = styled.nav`
   @media (max-width: ${({ theme }: Props) => theme.vp.sm}) {
     flex-direction: column;
 
+    ul {
+      flex-direction: column;
+    }
+
     div {
       display: none;
     }
