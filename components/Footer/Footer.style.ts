@@ -9,16 +9,12 @@ export const StyledFooter = styled.footer`
   color: #fff;
   padding: 40px 0 10px;
 
-  ul li {
-    margin-bottom: 20px;
-  }
-
-  p {
-    text-align: right;
-  }
-
   @media (max-width: ${({ theme }: Props) => theme.vp.sm}) {
     text-align: center;
+  }
+
+  ul li {
+    margin-bottom: 20px;
   }
 
   ul {
@@ -27,5 +23,9 @@ export const StyledFooter = styled.footer`
 
   p {
     text-align: center;
+  }
+
+  a {
+    color: #fff;
   }
 `;

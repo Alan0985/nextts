@@ -14,15 +14,27 @@ export const Footer: React.FC = () => (
         </ul>
 
         <ul>
-          <li>About Us</li>
-          <li>What We Do</li>
-          <li>FAQ</li>
+          <li>
+            <a href='/about'>About Us</a>
+          </li>
+          <li>
+            <a href='#'>What We Do</a>
+          </li>
+          <li>
+            <a href='#'>FAQ</a>
+          </li>
         </ul>
 
         <ul>
-          <li>Career</li>
-          <li>Blog</li>
-          <li>Contact Us</li>
+          <li>
+            <a href='#'>Career</a>
+          </li>
+          <li>
+            <a href='#'>Blog</a>
+          </li>
+          <li>
+            <a href='/contact'>Contact Us</a>
+          </li>
         </ul>
 
         <SocialIcons />
