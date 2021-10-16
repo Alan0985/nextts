@@ -5,7 +5,11 @@ export const StyledNearby = styled.div`
   flex-direction: column;
   align-items: center;
   width: 90vw;
-  margin: 20px auto;
+  margin: 40px auto;
+
+  h1 {
+    font-size: 40px;
+  }
 
   section {
     display: flex;
