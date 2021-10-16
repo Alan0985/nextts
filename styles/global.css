@@ -9,8 +9,12 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-  /* overflow: hidden; */
   overflow-x: hidden;
+}
+
+/* Hide ScrollBar */
+body::-webkit-scrollbar {
+  display: none;
 }
 
 ul {

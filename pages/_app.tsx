@@ -9,9 +9,8 @@ const theme = {
     primary: '#34b3a0',
   },
   vp: {
+    xs: '375px',
     sm: '768px',
-    md: '1024px',
-    lg: '1920px',
   },
 };
 

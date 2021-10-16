@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { StyledCityCard } from './CityCard.style';
 
 type Props = {

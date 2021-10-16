@@ -1,9 +1,6 @@
 import type { NextPage } from 'next';
+import { Guide } from '../components/Guide/Guide';
 
-const Guides: NextPage = () => (
-  <div>
-    <h1>Guides</h1>
-  </div>
-);
+const Guides: NextPage = () => <Guide />;
 
 export default Guides;

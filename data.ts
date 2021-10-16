@@ -6,6 +6,18 @@ const c05 = './assets/images/cities/c05.jpg';
 const c06 = './assets/images/cities/c06.jpg';
 const c07 = './assets/images/cities/c07.jpg';
 const c08 = './assets/images/cities/c08.jpg';
+const g01 = './assets/images/guides/g01.jpg';
+const g02 = './assets/images/guides/g02.jpg';
+const g03 = './assets/images/guides/g03.jpg';
+const g04 = './assets/images/guides/g04.jpg';
+const g05 = './assets/images/guides/g05.jpg';
+const g06 = './assets/images/guides/g06.jpg';
+const g07 = './assets/images/guides/g07.jpg';
+const g08 = './assets/images/guides/g08.jpg';
+const g09 = './assets/images/guides/g09.jpg';
+const g10 = './assets/images/guides/g10.jpg';
+const g11 = './assets/images/guides/g11.jpg';
+const g12 = './assets/images/guides/g12.jpg';
 
 export const cities = [
   {
@@ -55,5 +67,68 @@ export const cities = [
     src: c08,
     name: 'Queenstown',
     distance: '9hs Driving',
+  },
+];
+
+export const guides = [
+  {
+    id: 1,
+    src: g01,
+    name: 'Arrowtown Autumn Festival',
+  },
+  {
+    id: 2,
+    src: g02,
+    name: 'Mount Taranaki',
+  },
+  {
+    id: 3,
+    src: g03,
+    name: 'Church of Good Shepherd',
+  },
+  {
+    id: 4,
+    src: g04,
+    name: 'Lake Pukaki',
+  },
+  {
+    id: 5,
+    src: g05,
+    name: 'Aoraki/Mount Cook',
+  },
+  {
+    id: 6,
+    src: g06,
+    name: 'Queenstown Night View',
+  },
+  {
+    id: 7,
+    src: g07,
+    name: 'Mysterious Milford Sound',
+  },
+  {
+    id: 8,
+    src: g08,
+    name: 'Larnach Castle',
+  },
+  {
+    id: 9,
+    src: g09,
+    name: 'Stirling Point',
+  },
+  {
+    id: 10,
+    src: g10,
+    name: 'Golden Bay',
+  },
+  {
+    id: 11,
+    src: g11,
+    name: 'That Wanaka Tree',
+  },
+  {
+    id: 12,
+    src: g12,
+    name: 'Hobbiton Movie Set',
   },
 ];

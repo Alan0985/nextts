@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-export const StyledNearby = styled.div`
+export const StyledGuide = styled.section`
+  margin: 100px auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  width: 90vw;
-  margin: 40px auto;
 
   h1 {
     font-size: 40px;

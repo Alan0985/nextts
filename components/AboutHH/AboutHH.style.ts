@@ -1,20 +1,19 @@
 import styled from 'styled-components';
 
-export const StyledNearby = styled.div`
+export const StyledAboutHH = styled.section`
+  max-width: 1000px;
+  margin: 100px auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  width: 90vw;
-  margin: 40px auto;
 
   h1 {
     font-size: 40px;
     text-align: center;
   }
 
-  section {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+  p {
+    margin: 20px 50px;
   }
 `;

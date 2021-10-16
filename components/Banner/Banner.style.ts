@@ -15,6 +15,7 @@ export const StyledBanner = styled.section`
 
   h1 {
     font-size: 40px;
+    text-align: center;
   }
 
   p {
