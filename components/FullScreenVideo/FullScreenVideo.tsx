@@ -8,6 +8,7 @@ const StyledFullScreenVideo = styled.section`
   height: 100vh;
   display: flex;
   margin: auto;
+  justify-content: center;
   text-align: center;
   align-items: center;
   color: #fff;

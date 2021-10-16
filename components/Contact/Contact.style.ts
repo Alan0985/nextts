@@ -7,13 +7,24 @@ interface Props {
 export const StyledContact = styled.section`
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 150px auto;
+  margin: 80px auto;
 
-  @media (max-width: ${({ theme }: Props) => theme.vp.sm}) {
-    flex-direction: column;
-    margin: 100px auto;
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  section {
+    display: flex;
+    margin: 40px auto;
+
+    @media (max-width: ${({ theme }: Props) => theme.vp.sm}) {
+      flex-direction: column;
+      margin: 0;
+    }
   }
 
   div {

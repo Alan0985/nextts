@@ -12,6 +12,7 @@ export const StyledBanner = styled.section`
   margin: auto;
   padding: 0 3rem;
   background: url(${Banner}) center center;
+  background-size: cover;
 
   h1 {
     font-size: 40px;
