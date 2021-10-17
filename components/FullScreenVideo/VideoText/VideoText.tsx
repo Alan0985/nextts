@@ -5,8 +5,9 @@ export const VideoText = () => (
   <StyledVideoText>
     <h1>Enjoy Summer Holidays</h1>
     <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus tenetur
-      totam suscipit labore nam quibusdam repellendus ipsam error iusto est?
+      Summer is the time of year people get out of the house and bask outside
+      with friends and family. And the holidays are a great time to enjoy
+      experiences and make memories with family, friends and loved ones.
     </p>
     <Button href='/guides'>Explore</Button>
   </StyledVideoText>
