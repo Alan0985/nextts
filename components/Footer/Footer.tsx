@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { StyledContainer } from '../Utils/Container.style';
 import { StyledFlex } from '../Utils/Flex.style';
 import { StyledFooter } from './Footer.style';
@@ -15,25 +17,25 @@ export const Footer: React.FC = () => (
 
         <ul>
           <li>
-            <a href='/about'>About Us</a>
+            <Link href='/about'>About Us</Link>
           </li>
           <li>
-            <a href='#'>What We Do</a>
+            <Link href='#'>What We Do</Link>
           </li>
           <li>
-            <a href='#'>FAQ</a>
+            <Link href='#'>FAQ</Link>
           </li>
         </ul>
 
         <ul>
           <li>
-            <a href='#'>Career</a>
+            <Link href='#'>Career</Link>
           </li>
           <li>
-            <a href='#'>Blog</a>
+            <Link href='#'>Blog</Link>
           </li>
           <li>
-            <a href='/contact'>Contact Us</a>
+            <Link href='/contact'>Contact Us</Link>
           </li>
         </ul>
 

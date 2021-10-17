@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { StyledGuideCard } from './GuideCard.style';
 
 type Props = {
@@ -7,11 +9,13 @@ type Props = {
   href: string;
 };
 export const GuideCard = ({ src, name, href }: Props) => (
-  <StyledGuideCard href={href}>
-    <img src={src} alt={name} />
-    <div></div>
-    <span>
-      <h3>{name}</h3>
-    </span>
-  </StyledGuideCard>
+  <Link href={href}>
+    <StyledGuideCard>
+      <img src={src} alt={name} />
+      <div></div>
+      <span>
+        <h3>{name}</h3>
+      </span>
+    </StyledGuideCard>
+  </Link>
 );

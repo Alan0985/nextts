@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { FaTwitter, FaFacebook, FaLinkedin } from 'react-icons/fa';
 import { StyledSocialIcons } from './SocialIcons.style';
 
@@ -5,21 +7,27 @@ export const SocialIcons: React.FC = () => {
   return (
     <StyledSocialIcons>
       <li>
-        <a href='https://twitter.com'>
-          <FaTwitter />
-        </a>
+        <Link href='https://twitter.com'>
+          <a>
+            <FaTwitter />
+          </a>
+        </Link>
       </li>
 
       <li>
-        <a href='https://facebook.com'>
-          <FaFacebook />
-        </a>
+        <Link href='https://facebook.com'>
+          <a>
+            <FaFacebook />
+          </a>
+        </Link>
       </li>
 
       <li>
-        <a href='https://linkedin.com'>
-          <FaLinkedin />
-        </a>
+        <Link href='https://linkedin.com'>
+          <a>
+            <FaLinkedin />
+          </a>
+        </Link>
       </li>
     </StyledSocialIcons>
   );

@@ -11,6 +11,10 @@ export const StyledAboutHH = styled.section`
   h1 {
     font-size: 40px;
     text-align: center;
+    margin: 20px 50px;
+  }
+  span {
+    display: inline-block;
   }
 
   p {

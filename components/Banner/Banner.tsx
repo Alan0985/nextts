@@ -1,5 +1,5 @@
 import { StyledBanner } from './Banner.style';
-import { StyledButton } from '../Button/Button.style';
+import { Button } from '../Button/Button';
 
 export const Banner = () => (
   <StyledBanner>
@@ -8,6 +8,6 @@ export const Banner = () => (
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus tenetur
       totam suscipit labore nam quibusdam repellendus ipsam error iusto est?
     </p>
-    <StyledButton href='/touring'>Discover</StyledButton>
+    <Button href='/touring'>Discover</Button>
   </StyledBanner>
 );

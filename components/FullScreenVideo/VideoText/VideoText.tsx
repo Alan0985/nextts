@@ -1,5 +1,5 @@
 import { StyledVideoText } from './VideoText.style';
-import { StyledButton } from '../../Button/Button.style';
+import { Button } from '../../Button/Button';
 
 export const VideoText = () => (
   <StyledVideoText>
@@ -8,6 +8,6 @@ export const VideoText = () => (
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus tenetur
       totam suscipit labore nam quibusdam repellendus ipsam error iusto est?
     </p>
-    <StyledButton href='/guides'>Explore</StyledButton>
+    <Button href='/guides'>Explore</Button>
   </StyledVideoText>
 );
