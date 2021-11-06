@@ -6,6 +6,7 @@ const c05 = './assets/images/cities/c05.jpg';
 const c06 = './assets/images/cities/c06.jpg';
 const c07 = './assets/images/cities/c07.jpg';
 const c08 = './assets/images/cities/c08.jpg';
+
 const g01 = './assets/images/guides/g01.jpg';
 const g02 = './assets/images/guides/g02.jpg';
 const g03 = './assets/images/guides/g03.jpg';
@@ -18,6 +19,9 @@ const g09 = './assets/images/guides/g09.jpg';
 const g10 = './assets/images/guides/g10.jpg';
 const g11 = './assets/images/guides/g11.jpg';
 const g12 = './assets/images/guides/g12.jpg';
+
+const t01 = './assets/images/tours/t01.jpg';
+
 
 const DiscoverBannerImg = './assets/images/discoverBanner.jpg';
 const TouringBannerImg = './assets/images/touringBanner.jpg';
@@ -152,3 +156,24 @@ export const TouringBannerData = {
   buttonText: 'Explore',
   bgImgUrl: TouringBannerImg
 }
+
+export const TourCardData = [
+  {
+    id: 1,
+    href: '#',
+    src: t01,
+    title: 'Lord Of The Ring Movie Set 14 Days Tour',
+    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, voluptatibus itaque architecto repudiandae similique consectetur tempora eos omnis dolorum exercitationem suscipit, ratione neque recusandae quisquam voluptatem optio aut doloremque debitis.",
+    starCount: 4,
+    halfStar: true
+  },
+  {
+    id: 2,
+    href: '#',
+    src: t01,
+    title: 'Lord Of The Ring Movie Set 14 Days Tour',
+    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, voluptatibus itaque architecto repudiandae similique consectetur tempora eos omnis dolorum exercitationem suscipit, ratione neque recusandae quisquam voluptatem optio aut doloremque debitis.",
+    starCount: 4,
+    halfStar: true
+  },
+]

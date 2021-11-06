@@ -8,6 +8,13 @@ export const StyledTouring = styled.section`
   height: 100%;
   text-align: center;
 
+  #tours{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
     
   @media (max-width: ${ ( { theme }: Props ) => theme.vp.sm }) {
     h1{
