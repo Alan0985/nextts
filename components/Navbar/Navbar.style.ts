@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
-interface Props {
+interface Props
+{
   theme: any;
 }
 
@@ -11,7 +12,7 @@ export const StyledNavbar = styled.nav`
   width: 100vw;
   height: 80px;
   color: #fff;
-  background-color: ${({ theme }: Props) => theme.color.primary};
+  background-color: ${ ( { theme }: Props ) => theme.color.primary };
   opacity: 0.8;
   z-index: 3;
   display: flex;
@@ -36,7 +37,6 @@ export const StyledNavbar = styled.nav`
 
   ul {
     display: flex;
-    flex-direction: row;
     height: 100%;
   }
 
@@ -59,11 +59,11 @@ export const StyledNavbar = styled.nav`
     color: #fff;
   }
 
-  @media (max-width: ${({ theme }: Props) => theme.vp.sm}) {
+  @media (max-width: ${ ( { theme }: Props ) => theme.vp.sm }) {
     flex-direction: column;
 
-    ul {
-      flex-direction: column;
+    li {
+      margin: 0 5px;
     }
 
     div {

@@ -1,13 +1,19 @@
 import { StyledBanner } from './Banner.style';
 import { Button } from '../Button/Button';
 
-export const Banner = () => (
+type Props = {
+  bannerTitle: string;
+  bannerText: string;
+  buttonHref: string;
+  buttonText: string;
+};
+
+export const Banner = ( { bannerTitle, bannerText, buttonHref, buttonText }: Props ) => (
   <StyledBanner>
-    <h1>Discover Valuable Tourings</h1>
+    <h1>{bannerTitle}</h1>
     <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus tenetur
-      totam suscipit labore nam quibusdam repellendus ipsam error iusto est?
+      {bannerText}
     </p>
-    <Button href='/touring'>Discover</Button>
+    <Button href={buttonHref}>{buttonText}</Button>
   </StyledBanner>
 );

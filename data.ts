@@ -132,3 +132,17 @@ export const guides = [
     name: 'Hobbiton Movie Set',
   },
 ];
+
+export const DiscoverBannerData = {
+  bannerTitle: 'Discover Valuable Tourings',
+  bannerText: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus tenetur totam suscipit labore nam quibusdam repellendus ipsam error iusto est?',
+  buttonHref: '/touring',
+  buttonText: 'Discover'
+}
+
+export const TouringBannerData = {
+  bannerTitle: 'Explore 5000+ Tours In Aotearoa/New Zealand',
+  bannerText: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus tenetur totam suscipit labore nam quibusdam repellendus ipsam error iusto est Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus tenetur totam suscipit labore nam quibusdam repellendus ipsam error iusto est?',
+  buttonHref: '#tours',
+  buttonText: 'Explore'
+}

@@ -2,13 +2,13 @@ import type { NextPage } from 'next';
 
 import { FullScreenVideo } from '../components/FullScreenVideo/FullScreenVideo';
 import { Nearby } from '../components/Nearby/Nearby';
-import { Banner } from '../components/Banner/Banner';
+import { DiscoverBanner } from '../components/DiscoverBanner/DiscoverBanner';
 
 const Home: NextPage = () => (
   <>
     <FullScreenVideo />
     <Nearby />
-    <Banner />
+    <DiscoverBanner />
   </>
 );
 

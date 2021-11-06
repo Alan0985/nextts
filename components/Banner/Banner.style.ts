@@ -11,7 +11,7 @@ export const StyledBanner = styled.section`
   color: #fff;
   margin: auto;
   padding: 0 3rem;
-  background: url(${Banner}) center center;
+  background: url(${ Banner }) center center;
   background-size: cover;
 
   h1 {
