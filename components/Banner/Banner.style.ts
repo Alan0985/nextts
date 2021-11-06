@@ -1,5 +1,9 @@
 import styled from 'styled-components';
-const Banner = './assets/images/BannerBG.jpg';
+
+type Props = {
+  bgImgUrl: string,
+  theme: any
+};
 
 export const StyledBanner = styled.section`
   height: 700px;
@@ -11,7 +15,7 @@ export const StyledBanner = styled.section`
   color: #fff;
   margin: auto;
   padding: 0 3rem;
-  background: url(${ Banner }) center center;
+  background: ${ ( { bgImgUrl }: Props ) => `url(${ bgImgUrl }) center center` };
   background-size: cover;
 
   h1 {

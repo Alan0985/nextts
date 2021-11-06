@@ -7,5 +7,6 @@ export const TouringBanner = () => (
         bannerText={TouringBannerData.bannerText}
         buttonHref={TouringBannerData.buttonHref}
         buttonText={TouringBannerData.buttonText}
+        bgImgUrl={TouringBannerData.bgImgUrl}
     />
 )

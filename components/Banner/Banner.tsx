@@ -6,10 +6,11 @@ type Props = {
   bannerText: string;
   buttonHref: string;
   buttonText: string;
+  bgImgUrl: any
 };
 
-export const Banner = ( { bannerTitle, bannerText, buttonHref, buttonText }: Props ) => (
-  <StyledBanner>
+export const Banner = ( { bannerTitle, bannerText, buttonHref, buttonText, bgImgUrl }: Props ) => (
+  <StyledBanner bgImgUrl={bgImgUrl}>
     <h1>{bannerTitle}</h1>
     <p>
       {bannerText}

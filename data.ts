@@ -19,6 +19,10 @@ const g10 = './assets/images/guides/g10.jpg';
 const g11 = './assets/images/guides/g11.jpg';
 const g12 = './assets/images/guides/g12.jpg';
 
+const DiscoverBannerImg = './assets/images/discoverBanner.jpg';
+const TouringBannerImg = './assets/images/touringBanner.jpg';
+
+
 export const cities = [
   {
     id: 1,
@@ -137,12 +141,14 @@ export const DiscoverBannerData = {
   bannerTitle: 'Discover Valuable Tourings',
   bannerText: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus tenetur totam suscipit labore nam quibusdam repellendus ipsam error iusto est?',
   buttonHref: '/touring',
-  buttonText: 'Discover'
+  buttonText: 'Discover',
+  bgImgUrl: DiscoverBannerImg
 }
 
 export const TouringBannerData = {
   bannerTitle: 'Explore 5000+ Tours In Aotearoa/New Zealand',
-  bannerText: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus tenetur totam suscipit labore nam quibusdam repellendus ipsam error iusto est Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus tenetur totam suscipit labore nam quibusdam repellendus ipsam error iusto est?',
+  bannerText: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus tenetur totam suscipit labore nam quibusdam repellendus ipsam error iusto est Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
   buttonHref: '#tours',
-  buttonText: 'Explore'
+  buttonText: 'Explore',
+  bgImgUrl: TouringBannerImg
 }

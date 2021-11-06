@@ -7,5 +7,7 @@ export const DiscoverBanner = () => (
         bannerText={DiscoverBannerData.bannerText}
         buttonHref={DiscoverBannerData.buttonHref}
         buttonText={DiscoverBannerData.buttonText}
+        bgImgUrl={DiscoverBannerData.bgImgUrl}
+
     />
 )
