@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-interface Props {
+interface Props
+{
   theme: any;
 }
 
@@ -14,5 +15,11 @@ export const StyledVideoText = styled.div`
     font-size: 1.5rem;
     display: block;
     padding-bottom: 2rem;
+  }
+
+  @media (max-width: ${ ( { theme }: Props ) => theme.vp.sm }) {
+    p {
+    display: none;
+  }
   }
 `;
