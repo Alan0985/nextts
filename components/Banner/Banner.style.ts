@@ -28,4 +28,11 @@ export const StyledBanner = styled.section`
     display: block;
     padding-bottom: 2rem;
   }
+
+  @media (max-width: ${ ( { theme }: Props ) => theme.vp.sm }) {
+    p{
+      display: none;
+
+    }
+  }
 `;

@@ -1,33 +1,31 @@
 import { StyledTourCard } from "./TourCard.style"
-import { FaStar, FaStarHalf } from 'react-icons/fa';
+import { TourText } from "./TourText/TourText";
+import { TourImage } from "./TourImage/TourImage";
 
 type Props = {
     href: string;
     src: string;
     title: string;
     description: string;
+    duration: string;
     starCount: number;
     halfStar: boolean;
 }
 
-export const TourCard = ( { href, src, title, description, starCount, halfStar }: Props ) => (
+export const TourCard = ( { href, src, title, description, duration, starCount, halfStar }: Props ) => (
     <StyledTourCard>
-        <div>
-            <a href={href}><img src={src} alt="" /></a>
-        </div>
+        <TourImage
+            href={href}
+            src={src}
+            title={title}
+        />
 
-        <div>
-            <h1>{title}</h1>
-            <p>{description}</p>
-            <p></p>
-            <div>
-                {starCount}
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                <FaStar />
-                {halfStar ? <FaStarHalf /> : null}
-            </div>
-        </div>
+        <TourText
+            title={title}
+            description={description}
+            duration={duration}
+            starCount={starCount}
+            halfStar={halfStar}
+        />
     </StyledTourCard>
 )

@@ -1,20 +1,27 @@
 import styled from "styled-components";
 
+type Props = {
+    theme: any
+};
+
 export const StyledTourCard = styled.section`
 width: 80vw;
-height: 600px;
-margin-bottom: 40px;
 display: flex;
 justify-content: center;
 align-items: center;
 border-bottom: 1px solid #ccc;
 
-div{
-    width: 50%;
-    margin: 0 10px;
-}
+&:nth-child(even){
+      flex-direction: row-reverse;
+    }
 
-img{
-    border-radius: 15px;
-}
+
+@media (max-width: ${ ( { theme }: Props ) => theme.vp.sm }) {
+width: 100vw;
+flex-direction: column;
+
+&:nth-child(even){
+      flex-direction: column;
+    }
+  }
 `

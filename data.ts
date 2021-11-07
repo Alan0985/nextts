@@ -21,6 +21,8 @@ const g11 = './assets/images/guides/g11.jpg';
 const g12 = './assets/images/guides/g12.jpg';
 
 const t01 = './assets/images/tours/t01.jpg';
+const t02 = './assets/images/tours/t02.jpg';
+const t03 = './assets/images/tours/t03.jpg';
 
 
 const DiscoverBannerImg = './assets/images/discoverBanner.jpg';
@@ -163,17 +165,29 @@ export const TourCardData = [
     href: '#',
     src: t01,
     title: 'Lord Of The Ring Movie Set 14 Days Tour',
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, voluptatibus itaque architecto repudiandae similique consectetur tempora eos omnis dolorum exercitationem suscipit, ratione neque recusandae quisquam voluptatem optio aut doloremque debitis.",
+    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, voluptatibus itaque architecto repudiandae similique consectetur tempora eos omnis dolorum exercitationem suscipit, ratione neque recusandae quisquam voluptatem optio aut doloremque debitis. ratione neque recusandae quisquam voluptatem optio aut doloremque debitis.ratione neque recusandae quisquam voluptatem optio aut doloremque debitis.",
+    duration: '14 Days',
     starCount: 4,
     halfStar: true
   },
   {
     id: 2,
     href: '#',
-    src: t01,
-    title: 'Lord Of The Ring Movie Set 14 Days Tour',
+    src: t02,
+    title: 'West Coast Glacier Explore Tour',
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, voluptatibus itaque architecto repudiandae similique consectetur tempora eos omnis dolorum exercitationem suscipit, ratione neque recusandae quisquam voluptatem optio aut doloremque debitis.",
+    duration: '30 Mins',
     starCount: 4,
+    halfStar: false
+  },
+  {
+    id: 3,
+    href: '#',
+    src: t03,
+    title: 'Luxury Charter Yacht 3 Days Tour',
+    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, voluptatibus itaque architecto repudiandae similique consectetur tempora eos omnis dolorum exercitationem suscipit, ratione neque recusandae quisquam voluptatem optio aut doloremque debitis.",
+    duration: '3 Days',
+    starCount: 3,
     halfStar: true
   },
 ]

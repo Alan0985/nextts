@@ -16,6 +16,7 @@ const Touring: NextPage = () => (
           src={tour.src}
           title={tour.title}
           description={tour.description}
+          duration={tour.duration}
           starCount={tour.starCount}
           halfStar={tour.halfStar}
         />
