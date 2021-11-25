@@ -6,8 +6,8 @@ type Props = {
   children: any;
 };
 
-export const Button = ({ href, children }: Props) => (
-  <Link href={href}>
+export const Button = ( { href, children }: Props ) => (
+  <Link href={href} passHref>
     <StyledButton>{children}</StyledButton>
   </Link>
 );
