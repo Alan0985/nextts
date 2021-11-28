@@ -77,5 +77,23 @@ describe( 'User visit the website', () =>
     {
         cy.get( '[data-test=contact]' ).click()
         cy.findByText( /email:/i ).should( 'exist' )
+
+        let name = 'John'
+        cy.findByPlaceholderText( /name/i ).should( 'exist' )
+        cy.findByPlaceholderText( /name/i ).type( name ).should( 'have.value', name )
+
+        let email = 'john@doe.co.nz'
+        cy.findByPlaceholderText( /name/i ).should( 'exist' )
+        cy.findByPlaceholderText( /email address/i ).type( email ).should( 'have.value', email )
+
+        let message = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, illo'
+        cy.get( 'textarea' ).should( 'exist' )
+        cy.get( 'textarea' ).type( message ).should( 'have.value', message )
+
+        cy.findByRole( 'button', { name: /submit/i } ).should( 'exist' )
+        cy.on( 'window:alert', ( text ) =>
+        {
+            expect( text ).to.contains( 'Thanks for your message, we will get back to you soon.' )
+        } )
     } )
 } )

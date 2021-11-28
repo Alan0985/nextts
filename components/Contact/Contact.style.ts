@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
-interface Props {
+interface Props
+{
   theme: any;
 }
 
@@ -21,7 +22,7 @@ export const StyledContact = styled.section`
     display: flex;
     margin: 40px auto;
 
-    @media (max-width: ${({ theme }: Props) => theme.vp.sm}) {
+    @media (max-width: ${ ( { theme }: Props ) => theme.vp.sm }) {
       flex-direction: column;
       margin: 0;
     }
@@ -46,7 +47,7 @@ export const StyledContact = styled.section`
     width: 90%;
     height: 36px;
     line-height: 36px;
-    border: 1px solid ${({ theme }: Props) => theme.color.primary};
+    border: 1px solid ${ ( { theme }: Props ) => theme.color.primary };
     color: #2c3e50;
     text-align: center;
     margin-top: 6px;
@@ -55,9 +56,21 @@ export const StyledContact = styled.section`
   textarea {
     width: 90%;
     height: 100px;
-    border: 1px solid ${({ theme }: Props) => theme.color.primary};
+    border: 1px solid ${ ( { theme }: Props ) => theme.color.primary };
     color: #2c3e50;
     text-align: center;
     margin: 6px auto;
+  }
+
+  button{
+    font-size: 16px;
+  padding: 15px 60px;
+  background-color: ${ ( { theme }: Props ) => theme.color.primary };
+  color: #fff;
+  border: none;
+
+  &:hover {
+    opacity: 0.9;
+  }
   }
 `;
