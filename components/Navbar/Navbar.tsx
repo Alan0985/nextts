@@ -6,7 +6,8 @@ import { FaUmbrellaBeach } from 'react-icons/fa';
 
 import { StyledNavbar } from './Navbar.style';
 
-export const Navbar: React.FC = () => {
+export const Navbar: React.FC = () =>
+{
   const { pathname } = useRouter();
   return (
     <StyledNavbar>
@@ -19,7 +20,7 @@ export const Navbar: React.FC = () => {
         <li className={pathname == '/' ? 'active' : ''}>
           <Link href='/'>Home</Link>
         </li>
-        <li className={pathname == '/about' ? 'active' : ''}>
+        <li className={pathname == '/about' ? 'active' : ''} data-test="about">
           <Link href='/about'>About</Link>
         </li>
         <li className={pathname == '/guides' ? 'active' : ''}>
@@ -28,7 +29,7 @@ export const Navbar: React.FC = () => {
         <li className={pathname == '/touring' ? 'active' : ''}>
           <Link href='/touring'>Touring</Link>
         </li>
-        <li className={pathname == '/contact' ? 'active' : ''}>
+        <li className={pathname == '/contact' ? 'active' : ''} data-test="contact">
           <Link href='/contact'>Contact</Link>
         </li>
       </ul>

@@ -7,7 +7,7 @@ type Props = {
 export const StyledButton = styled.a`
   font-size: 16px;
   padding: 15px 60px;
-  background-color: ${({ theme }: Props) => theme.color.primary};
+  background-color: ${ ( { theme }: Props ) => theme.color.primary };
   color: #fff;
 
   &:hover {

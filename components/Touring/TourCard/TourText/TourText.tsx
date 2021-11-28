@@ -20,9 +20,9 @@ export const TourText = ( { title, description, duration, starCount, halfStar }:
         <StyledTourText>
             <h1>{title}</h1>
             <p>{description}</p>
-            <p><span>Duration:</span>{duration}</p>
+            <p><span data-test='tourDuration'>Duration:</span>{duration}</p>
             <div>
-                <span>
+                <span data-test='tourRating'>
                     Rating:
                 </span>
                 {starts}

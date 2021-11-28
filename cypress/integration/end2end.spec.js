@@ -50,4 +50,32 @@ describe( 'User visit the website', () =>
             cy.get( 'svg' ).first().parent().should( 'have.attr', 'href', 'https://twitter.com' )
         } )
     } )
+
+    it( 'User goes to About Page', () =>
+    {
+        cy.get( '[data-test=about]' ).click()
+        cy.findByRole( 'heading', { name: /about hello holiday/i } ).should( 'exist' )
+    } )
+
+    it( 'User goes to Travel Guides Page', () =>
+    {
+        cy.findByRole( 'link', { name: /travel guides/i } ).click()
+        cy.findByRole( 'heading', { name: /travel guides/i } ).should( 'exist' )
+        cy.findByRole( 'heading', { name: /hobbiton movie set/i } ).should( 'exist' )
+    } )
+
+    it( 'User goes to Touring Page', () =>
+    {
+        cy.findByRole( 'link', { name: /touring/i } ).click()
+        cy.findByRole( 'heading', { name: /lord of the ring movie set 14 days tour/i } ).should( 'exist' )
+        cy.get( '[data-test=tourDuration]' ).contains( "Duration" )
+        cy.get( '[data-test=tourRating]' ).contains( "Rating" )
+        cy.findByRole( 'img', { name: /luxury charter yacht 3 days tour/i } ).should( 'exist' )
+    } )
+
+    it( 'User goes to Contact Page', () =>
+    {
+        cy.get( '[data-test=contact]' ).click()
+        cy.findByText( /email:/i ).should( 'exist' )
+    } )
 } )
