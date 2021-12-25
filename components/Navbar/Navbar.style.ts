@@ -35,7 +35,7 @@ export const StyledNavbar = styled.nav`
     color: #fff;
   }
 
-  ul {
+  /* ul {
     display: flex;
     height: 100%;
   }
@@ -57,7 +57,7 @@ export const StyledNavbar = styled.nav`
     align-items: center;
     height: 100%;
     color: #fff;
-  }
+  } */
 
   @media (max-width: ${ ( { theme }: Props ) => theme.vp.sm }) {
     flex-direction: column;
