@@ -8,25 +8,25 @@ export const SocialIcons: React.FC = () => {
     <StyledSocialIcons>
       <li>
         <Link href='https://twitter.com'>
-          <a>
-            <FaTwitter />
-          </a>
+
+          <FaTwitter />
+
         </Link>
       </li>
 
       <li>
         <Link href='https://facebook.com'>
-          <a>
-            <FaFacebook />
-          </a>
+
+          <FaFacebook />
+
         </Link>
       </li>
 
       <li>
         <Link href='https://linkedin.com'>
-          <a>
-            <FaLinkedin />
-          </a>
+
+          <FaLinkedin />
+
         </Link>
       </li>
     </StyledSocialIcons>

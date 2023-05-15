@@ -7,7 +7,7 @@ type Props = {
 };
 
 export const Button = ( { href, children }: Props ) => (
-  <Link href={href} passHref>
+  <Link href={href} passHref legacyBehavior>
     <StyledButton>{children}</StyledButton>
   </Link>
 );

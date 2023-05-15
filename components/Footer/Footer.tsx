@@ -5,9 +5,12 @@ import { StyledFlex } from '../Utils/Flex.style';
 import { StyledFooter } from './Footer.style';
 import { SocialIcons } from '../SocialIcons/SocialIcons';
 
-export const Footer: React.FC = () => (
-  <StyledFooter>
-    <StyledContainer>
+export const Footer: React.FC = () => {
+  let fullYear = new Date().getFullYear();
+
+  return (
+    <StyledFooter>
+      <StyledContainer>
       <StyledFlex>
         <ul>
           <li>Lorem ipsum dolor sit amet</li>
@@ -41,7 +44,8 @@ export const Footer: React.FC = () => (
 
         <SocialIcons />
       </StyledFlex>
-      <p>&copy;2021 HelloHoliday. All Rights Reserved.</p>
-    </StyledContainer>
-  </StyledFooter>
-);
+      <p>&copy; {fullYear} HelloHoliday. All Rights Reserved.</p>
+      </StyledContainer>
+    </StyledFooter>
+  )
+}

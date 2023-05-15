@@ -19,7 +19,7 @@ export const Navbar: React.FC = () =>
 
       <NavLinks />
 
-      <div className="navbar_menu">
+      {/* <div className="navbar_menu">
         {
           toggleMenu ?
             <RiCloseLine color='#fff' size={27} onClick={() => setToggleMenu( false )} />
@@ -27,7 +27,7 @@ export const Navbar: React.FC = () =>
             <RiMenu3Line color='#fff' size={27} onClick={() => setToggleMenu( true )} />
         }
         {toggleMenu && <NavLinks />}
-      </div>
+      </div> */}
     </StyledNavbar>
   );
 };

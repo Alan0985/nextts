@@ -9,7 +9,7 @@ type Props = {
   href: string;
 };
 export const GuideCard = ({ src, name, href }: Props) => (
-  <Link href={href}>
+  <Link href={href} legacyBehavior>
     <StyledGuideCard>
       <img src={src} alt={name} />
       <div></div>
